@@ -15,12 +15,7 @@ type Props = {
 };
 
 const QuestionCard: React.FC<Props> = ({ question, answers, callback, userAnswer, questionNumber, totalQuestions }) => {
-  console.log("userAnswer = ", userAnswer);
-  console.log("!userAnswer = ", !userAnswer);
-  // const newUserAnswer: Boolean = true;
-  // if (!userAnswer) {
-  //   newUserAnswer = false;
-  // }
+
   return (
     <Wrapper>
       <p className="number">
