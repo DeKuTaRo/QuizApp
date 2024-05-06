@@ -53,6 +53,11 @@ export const Wrapper = styled.div`
         margin: 20px;
     }
 
+    .optionsSearch select{
+        margin: 2px;
+        padding: 2px;
+    }
+
     .start, .next {
         cursor: pointer;
         background: linear-gradient(180deg, #fff, #ffcc91);

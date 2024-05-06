@@ -35,7 +35,7 @@ export const ButtonWrapper = styled.div<ButtonWrapperProps>`
     background: ${({ correct, userClicked }) =>
       correct
         ? "linear-gradient(90deg, #56FFA4, #59BC86)"
-        : !correct && userClicked
+        : userClicked
         ? "linear-gradient(90deg, #FF5656, #C16868)"
         : "linear-gradient(90deg, #56ccff, #6eafb4)"};
     border: 3px solid #ffffff;
